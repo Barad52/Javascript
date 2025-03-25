@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description Page</title>
+    <style>
+        .card-body {
+            max-width: 500px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 20px;
+            border: 1px solid #3f3f3f;
+            border-radius: 4px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card-body:hover {
+            transform: scale(1.03);
+        }
+
+        .card-title {
+            font-size: 26px;
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .card-img {
+            width: 100%;
+            height: 280px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-founder,
+        .card-category,
+        .card-price {
+            font-size: 18px;
+            color: #444;
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            display: inline-block;
+            width: 80%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-link,
+        .card-button {
+            display: inline-block;
+            width: 48%;
+            padding: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            border: none;
+            text-transform: uppercase;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+        }
+
+        .card-link {
+            background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%);
+        }
+
+        .card-link:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+            opacity: 0.85;
+        }
+
+        .card-button {
+            background-image: linear-gradient(to right, #000428 0%, #004e92 51%, #000428 100%);
+        }
+
+        .card-button:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+            opacity: 0.85;
+        }
+
+        @media (max-width: 600px) {
+            .card-body {
+                width: 90%;
+                padding: 20px;
+            }
+
+            .card-img {
+                height: 220px;
+            }
+
+            .card-title {
+                font-size: 22px;
+            }
+
+            .card-founder,
+            .card-category,
+            .card-price {
+                font-size: 16px;
+                width: 100%;
+            }
+
+            .card-link,
+            .card-button {
+                width: 100%;
+                margin-top: 5px;
+            }
+        }
+
+        /* // Add to Cart  */
+
+        #addtocart {
+            width: 97%;
+            padding: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            border: none;
+            background-image: linear-gradient(to right, #000000 0%, #00a832 51%, #000000 100%);
+            color: white;
+            box-shadow: 0 0 20px #eee;
+        }
+
+        #addtocart:hover {
+            background-position: right center;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 600px) {
+            #addtocart {
+                width: 100%;
+                margin-top: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card-body">
+        <h4 class="card-title"></h4>
+        <div class="card-img">
+            <img src="" id="card-imgs" alt="pitch">
+        </div>
+        <p class="card-founder"><strong>Founder:</strong></p>
+        <p class="card-category"><strong>Category:</strong></p>
+        <p class="card-price"><strong>Price:</strong></p>
+        <button data-id="${pitch.id}" class="card-link">Edit</button>
+        <button data-id="${pitch.id}" class="card-button">Delete</button>
+
+        <a href="cart.html">
+            <div style="text-align: center; margin-top: 10px;">
+                <button id="addtocart">Add to cart</button>
+            </div>
+        </a>
+    </div>
+    <script>
+        let allDatas = new URLSearchParams(window.location.search);
+
+        let Titles = allDatas.get("title");
+        console.log(Titles);
+        let Titlesid = document.querySelector(".card-title");
+        Titlesid.innerText = Titles;
+
+        let Images = allDatas.get("image");
+        console.log(Images);
+        let ImagesId = document.getElementById("card-imgs");
+        ImagesId.src = Images;
+
+        let Founders = allDatas.get("founder");
+        console.log(Founders);
+        let FoundersId = document.querySelector(".card-founder");
+        FoundersId.innerText = Founders;
+
+        let Categorys = allDatas.get("category");
+        console.log(Categorys);
+        let CategorysId = document.querySelector(".card-category");
+        CategorysId.innerText = Categorys;
+
+        let Prices = allDatas.get("price");
+        console.log(Prices);
+        let PricesId = document.querySelector(".card-price")
+        PricesId.innerText = Prices;
+
+        let AddToCart = document.getElementById("addtocart");
+        AddToCart.addEventListener('click', () => {
+            alert("Add to Cart data");
+            AddToCartData = {
+                title: allDatas.get("title"),
+                image: allDatas.get("image"),
+                founder: allDatas.get("founder"),
+                category: allDatas.get("category"),
+                price: allDatas.get("price")
+            }
+
+            function fetchPitches() {
+                fetch('http://localhost:3000/cart', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(AddToCartData),
+                }).then(res => res.json())
+                    .then(data => {
+                        display(data);
+                        arr = data
+                    })
+                    .catch(err => {
+                        console.log("error", err);
+
+                    })
+            }
+
+            function display(el) {
+                let store = el.map(pitch =>
+                    `<div class="card-body">
+        <a href="description.html?title=${encodeURIComponent(pitch.title)}&image=${encodeURIComponent(pitch.image)}&founder=${encodeURIComponent(pitch.founder)}&category=${encodeURIComponent(pitch.category)}&price=${encodeURIComponent(pitch.price)}">
+            <h4 class="card-title">${pitch.title}</h4>
+            <div class="card-img">
+                <img src="${pitch.image}" alt="pitch">
+            </div>
+            <p class="card-founder"><strong>Founder:</strong> ${pitch.founder}</p>
+            <p class="card-category"><strong>Category:</strong> ${pitch.category}</p>
+            <p class="card-price"><strong>Price:</strong> ₹${pitch.price}</p>
+        </a>
+        <div class="card-actions">
+            <button data-id="${pitch.id}" class="card-link">Edit</button>
+            <button data-id="${pitch.id}" class="card-button">Delete</button>
+        </div>
+    </div>`
+                ).join("");
+            }
+            fetchPitches();
+
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,285 @@
+/* reusable */
+
+.capsule {
+  height: 26px;
+  line-height: 26px;
+  border-radius: 10px;
+}
+
+#navbar {
+  border: 1px solid green;
+}
+
+#main_container {
+  display: flex;
+}
+
+.container {
+  margin-bottom: 80px;
+}
+
+.sidebar-one {
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.student {
+  width: 260px;
+  height: 450px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.student img {
+  width: 80%;
+  height: 30%;
+  border-bottom: 1px solid gray;
+}
+
+.student div {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* cards */
+
+/* card list */
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  gap: 4%;
+}
+
+.card:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+@media (min-width: 576px) {
+  .card {
+    flex-basis: 38%;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex-basis: 100%;
+  }
+}
+
+/* individual card  */
+.card {
+  background-color: white;
+  font-size: 20px;
+  padding: 15px;
+
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4%;
+}
+
+.card__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.card__img {
+  margin-bottom: 8px;
+  height: 120px;
+}
+
+.card>div>img {
+  height: 300px;
+  max-width: 250px;
+  object-fit: cover !important;
+}
+
+.card__link {
+  font-family: "verdana", "sans-serif";
+  font-size: 15px;
+  color: #1c1c1c;
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row;
+  }
+
+  .card__img {
+    flex-basis: 33%;
+    margin: 0;
+    height: auto;
+    max-height: 120px;
+  }
+
+  .card__img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.card__title {
+  margin: 0;
+  color: #1c1c1c;
+  font-size: 18px;
+}
+
+.card__description {
+  font-size: 15px;
+  color: #696969;
+  line-height: 1.5;
+}
+
+nav {
+  height: 100px;
+  font-size: larger;
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+  background-color: #29717d;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+
+
+#shark>div>img {
+  height: 100px;
+  width: 100px;
+  border-radius: 150%;
+  margin-left: 60px
+}
+
+#shark {
+  display: flex;
+  flex-direction: column;
+  background-color: #29717d;
+}
+
+#shark>div>h3 {
+  color: #29717d;
+  margin-top: -30px;
+  font-weight: bold;
+}
+
+nav>div {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 30px;
+}
+
+nav>div>div {
+  display: flex;
+  align-items: center;
+}
+
+nav>div>div>input {
+  height: 25px;
+  outline: none;
+  align-items: center;
+  background-color: transparent;
+  padding: 1rem;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: "Dosis", sans-serif;
+}
+
+/* New css Main.js */
+
+.card-link {
+  background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%)
+}
+
+.card-link,
+.card-button {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.card-link:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.card-button {
+  background-image: linear-gradient(to right, #000428 0%, #004e92 51%, #000428 100%)
+}
+
+.card-button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+#data-list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card-body {
+  width: 300px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-body:hover {
+  transform: scale(1.05);
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    width: 100%;
+  }
+}
+
+/* Add to Cart  */
+
+nav > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
