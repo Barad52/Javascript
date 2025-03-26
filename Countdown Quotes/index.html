@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown with Quotes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        #countdown {
+            font-size: 50px;
+            font-weight: bold;
+            color: red;
+        }
+
+        #quote {
+            font-size: 24px;
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Countdown with Quotes</h1>
+    <div id="countdown">Wait</div>
+    <div id="quote">Starting soon...</div>
+
+    <script>
+        let quotes = [
+            "Believe in yourself!",
+            "Every second counts!",
+            "Keep pushing forward!",
+            "Success is near!",
+            "Stay strong!",
+            "Hard work pays off!",
+            "Don't give up!",
+            "You're almost there!",
+            "Great things take time!",
+            "The final second!"
+        ];
+
+        function display() {
+            let countdownNumber = 10;
+            let i = 0;
+            let timeSetup = setInterval(() => {
+                document.getElementById("countdown").innerText = countdownNumber;
+
+                if (countdownNumber > 0) {
+                    document.getElementById("quote").innerText = quotes[i];
+                } else {
+                    document.getElementById("quote").innerText = "Time's up";
+                    clearInterval(interval);
+                }
+
+                countdownNumber--;
+                i++;
+            }, 1000);
+        }
+
+        display();
+    </script>
+
+</body>
+
+</html>
