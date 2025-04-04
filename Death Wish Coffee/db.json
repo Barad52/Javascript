@@ -1,0 +1,753 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Last Laugh Mug",
+      "handle": "last-laugh-mug",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_April2025_Products_Mug_Purple_Front_EA2.jpg?v=1743449076&width=533",
+      "price": 3800,
+      "compare_at_price": 3800,
+      "rating": 0.0,
+      "reviews": 0,
+      "available": true,
+      "variants": [
+        {
+          "id": "41456531144759",
+          "title": "Default",
+          "price": 3800,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Poker Face Playing Cards",
+      "handle": "poker-face-playing-cards",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_April2025_Products_Cards_Frontandback_EA2.jpg?v=1743448400&width=533",
+      "price": 800,
+      "compare_at_price": 800,
+      "rating": 0.0,
+      "reviews": 0,
+      "available": true,
+      "variants": [
+        {
+          "id": "41456531177527",
+          "title": "Default",
+          "price": 800,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Erin Go Bold Long Sleeve",
+      "handle": "erin-go-bold-long-sleeve",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_March2025_Product_TShirt_GreenWash_Front_Web2.jpg?v=1741697901&width=533",
+      "price": 3500,
+      "compare_at_price": 3500,
+      "rating": 5.0,
+      "reviews": 6,
+      "available": true,
+      "variants": [
+        {
+          "id": "41456531144759",
+          "title": "S",
+          "price": 3500,
+          "available": true
+        },
+        {
+          "id": "41456531177527",
+          "title": "M",
+          "price": 3500,
+          "available": true
+        },
+        {
+          "id": "41456531210295",
+          "title": "L",
+          "price": 3500,
+          "available": true
+        },
+        {
+          "id": "41456531243063",
+          "title": "XL",
+          "price": 3500,
+          "available": true
+        },
+        {
+          "id": "41456531275831",
+          "title": "2XL",
+          "price": 3500,
+          "available": true
+        },
+        {
+          "id": "41456531308599",
+          "title": "3XL",
+          "price": 3500,
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Level Up Letterman Jacket",
+      "handle": "level-up-letterman-jacket",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_March2025_Product_BomberJacket_Front_Web_2.jpg?v=1741960020&width=533",
+      "price": 8500,
+      "compare_at_price": 8500,
+      "rating": 1.0,
+      "reviews": 1,
+      "available": true,
+      "variants": [
+        {
+          "id": "41473926365239",
+          "title": "S",
+          "price": 8500,
+          "available": true
+        },
+        {
+          "id": "41473926398007",
+          "title": "M",
+          "price": 8500,
+          "available": true
+        },
+        {
+          "id": "41473926430775",
+          "title": "L",
+          "price": 8500,
+          "available": true
+        },
+        {
+          "id": "41473926463543",
+          "title": "XL",
+          "price": 8500,
+          "available": true
+        },
+        {
+          "id": "41473926496311",
+          "title": "2XL",
+          "price": 8500,
+          "available": true
+        },
+        {
+          "id": "41473926529079",
+          "title": "3XL",
+          "price": 8500,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Death Grip Bottle Opener",
+      "handle": "death-grip-bottle-opener",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_March2025_Product_BottleOpener_Front2_Web.jpg?v=1741809353&width=533",
+      "price": 800,
+      "compare_at_price": 720,
+      "rating": 0.0,
+      "reviews": 0,
+      "available": true,
+      "variants": [
+        {
+          "id": "41473926529080",
+          "title": "Default",
+          "price": 800,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Coffee & Chill Hoodie",
+      "handle": "coffee-chill-hoodie",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_11529_CoreProducts_Hoodie_Greywash_Web2.jpg?v=1741956801&width=533",
+      "price": 5400,
+      "compare_at_price": 6000,
+      "rating": 5.0,
+      "reviews": 1,
+      "available": true,
+      "variants": [
+        {
+          "id": "41517572063287",
+          "title": "S",
+          "price": 5400,
+          "available": true
+        },
+        {
+          "id": "41517572096055",
+          "title": "M",
+          "price": 5400,
+          "available": true
+        },
+        {
+          "id": "41517572128823",
+          "title": "L",
+          "price": 5400,
+          "available": true
+        },
+        {
+          "id": "41517572161591",
+          "title": "XL",
+          "price": 5400,
+          "available": true
+        },
+        {
+          "id": "41517572194359",
+          "title": "2XL",
+          "price": 5400,
+          "available": true
+        },
+        {
+          "id": "41517572227127",
+          "title": "3XL",
+          "price": 5400,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Coffee & Chill Joggers",
+      "handle": "coffee-chill-joggers",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_11543_CoreProducts_Joggers_Back_Web2.jpg?v=1741956939&width=533",
+      "price": 4050,
+      "compare_at_price": 4500,
+      "rating": 5.0,
+      "reviews": 1,
+      "available": true,
+      "variants": [
+        {
+          "id": "41517571571767",
+          "title": "S",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41517571604535",
+          "title": "M",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41517571637303",
+          "title": "L",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41517571670071",
+          "title": "XL",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41517571702839",
+          "title": "2XL",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41517571735607",
+          "title": "3XL",
+          "price": 4050,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Frozen Bones Ice Stone Set",
+      "handle": "frozen-bones-ice-stone-set",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_March2025_Product_WhiskeyCubes_Boxandcubes_Web.jpg?v=1741697987&width=533",
+      "price": 1400,
+      "compare_at_price": 1400,
+      "rating": 5.0,
+      "reviews": 4,
+      "available": false,
+      "variants": [
+        {
+          "id": "41473925742648",
+          "title": "Default",
+          "price": 1400,
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Signature Standard Tee",
+      "handle": "signature-standard-tee",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_11496_CoreProducts_TShirt_RegFit_Front_Web2_702b8614-b9de-4f06-b05f-3aeee55603f2.jpg?v=1740579393&width=533",
+      "price": 2250,
+      "compare_at_price": 2500,
+      "rating": 5.0,
+      "reviews": 2,
+      "available": true,
+      "variants": [
+        {
+          "id": "41473922695223",
+          "title": "S",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473922727991",
+          "title": "M",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473922760759",
+          "title": "L",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473922793527",
+          "title": "XL",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473922826295",
+          "title": "2XL",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473922859063",
+          "title": "3XL",
+          "price": 2250,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Signature Hoodie",
+      "handle": "signature-hoodie",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_11522_CoreProducts_Hoodie_WhiteStrings_Front_Web2.jpg?v=1740578883&width=533",
+      "price": 4050,
+      "compare_at_price": 4500,
+      "rating": 5.0,
+      "reviews": 1,
+      "available": true,
+      "variants": [
+        {
+          "id": "41482359210039",
+          "title": "S",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482359242807",
+          "title": "M",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482359275575",
+          "title": "L",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482359308343",
+          "title": "XL",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482359341111",
+          "title": "2XL",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482359373879",
+          "title": "3XL",
+          "price": 4050,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Signature Boxy Tee",
+      "handle": "signature-boxy-tee",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_11496_CoreProducts_TShirt_RegFit_Front_Web2.jpg?v=1740579340&width=533",
+      "price": 2250,
+      "compare_at_price": 2500,
+      "rating": 3.0,
+      "reviews": 2,
+      "available": true,
+      "variants": [
+        {
+          "id": "41473925578807",
+          "title": "S",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473925611575",
+          "title": "M",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473925644343",
+          "title": "L",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473925677111",
+          "title": "XL",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473925709879",
+          "title": "2XL",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473925742647",
+          "title": "3XL",
+          "price": 2250,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Signature Zip Hoodie",
+      "handle": "signature-zip-hoodie",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_11526_CoreProducts_Hoodie_Zipup_Front_Web2.jpg?v=1740579038&width=533",
+      "price": 4050,
+      "compare_at_price": 4500,
+      "rating": 3.8,
+      "reviews": 5,
+      "available": true,
+      "variants": [
+        {
+          "id": "41482354360375",
+          "title": "S",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482354393143",
+          "title": "M",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482354425911",
+          "title": "L",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482354458679",
+          "title": "XL",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482354491447",
+          "title": "2XL",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482354524215",
+          "title": "3XL",
+          "price": 4050,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Signature Shadow Tee",
+      "handle": "bingham-tonal-logo-black-t-shirt",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_11487_CoreProducts_TShirt_Grey_Front_Web2.jpg?v=1740579104&width=533",
+      "price": 2250,
+      "compare_at_price": 2500,
+      "rating": 4.0,
+      "reviews": 1,
+      "available": true,
+      "variants": [
+        {
+          "id": "41473924399159",
+          "title": "S",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473924431927",
+          "title": "M",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473924464695",
+          "title": "L",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473924497463",
+          "title": "XL",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473924530231",
+          "title": "2XL",
+          "price": 2250,
+          "available": true
+        },
+        {
+          "id": "41473924562999",
+          "title": "3XL",
+          "price": 2250,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Signature Shadow Hoodie",
+      "handle": "signature-shadow-hoodie",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_11473_CoreProducts_Hoodie_Grey_Front_Web2.jpg?v=1740578959&width=533",
+      "price": 4050,
+      "compare_at_price": 4500,
+      "rating": 0.0,
+      "reviews": 0,
+      "available": true,
+      "variants": [
+        {
+          "id": "41482355114039",
+          "title": "S",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482355146807",
+          "title": "M",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482355179575",
+          "title": "L",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482355212343",
+          "title": "XL",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482355245111",
+          "title": "2XL",
+          "price": 4050,
+          "available": true
+        },
+        {
+          "id": "41482355277879",
+          "title": "3XL",
+          "price": 4050,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Signature Society of Strong Coffee Hoodie",
+      "handle": "signature-society-of-strong-coffee-hoodie",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_11466_CoreProducts_Hoodie_SocieyofStrong_Front_Web.jpg?v=1740599979&width=533",
+      "price": 4050,
+      "compare_at_price": 4500,
+      "rating": 4.5,
+      "reviews": 2,
+      "available": true,
+      "variants": []
+    },
+    {
+      "id": 16,
+      "title": "Lock and Key Mug",
+      "handle": "lock-and-key-mug",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_Mug_Lockandkey_Front_Web_Mobile.jpg?v=1740057857&width=533",
+      "price": 3800,
+      "compare_at_price": 3800,
+      "rating": 4.6,
+      "reviews": 25,
+      "available": false,
+      "variants": []
+    },
+    {
+      "id": 17,
+      "title": "Lock It Down Keychain",
+      "handle": "lock-it-down-keychain",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_Keychain_LockandKey_Front_Web.jpg?v=1739893502&width=533",
+      "price": 600,
+      "compare_at_price": 540,
+      "rating": 3.5,
+      "reviews": 2,
+      "available": false,
+      "variants": []
+    },
+    {
+      "id": 18,
+      "title": "Pour For Four Metal Cup Set",
+      "handle": "pour-for-four-metal-cup-set",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_December_Product_Solocups_Four_Web.jpg?v=1734360502&width=533",
+      "price": 2500,
+      "compare_at_price": 1875,
+      "rating": 0.0,
+      "reviews": 0,
+      "available": false,
+      "variants": []
+    },
+    {
+      "id": 19,
+      "title": "Brain Freeze Ice Molds",
+      "handle": "brain-freeze-ice-molds",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_IceTray_Empty_Web.jpg?v=1739309585&width=533",
+      "price": 1200,
+      "compare_at_price": 1200,
+      "rating": 5.0,
+      "reviews": 1,
+      "available": false,
+      "variants": []
+    },
+    {
+      "id": 20,
+      "title": "Rebellious By Nature Snapback (Black)",
+      "handle": "rebellious-by-nature-snapback-black",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_Product_Hat_Black_Side_Web.jpg?v=1739304777&width=533",
+      "price": 2500,
+      "compare_at_price": 1775,
+      "rating": 5.0,
+      "reviews": 2,
+      "available": false,
+      "variants": []
+    },
+    {
+      "id": 21,
+      "title": "Rebellious By Nature Snapback (Pink)",
+      "handle": "classic-logo-pink-ranch-hat",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_Product_Hat_Pink_Side_Web.jpg?v=1739308405&width=533",
+      "price": 2500,
+      "compare_at_price": 1775,
+      "rating": 5.0,
+      "reviews": 2,
+      "available": false,
+      "variants": []
+    },
+    {
+      "id": 22,
+      "title": "Plaid Pocket Tee",
+      "handle": "plaid-pocket-tee",
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_November2024_Product_FadedTee_Front_Web2_730b2a63-cdfc-4601-829e-9d4e6ed62ae8.jpg?v=1731520862&width=533",
+      "price": 3825,
+      "compare_at_price": 4500,
+      "rating": 5.0,
+      "reviews": 4,
+      "available": true,
+      "variants": [
+        {
+          "id": "41339421753399",
+          "title": "S",
+          "price": 3825,
+          "available": true
+        },
+        {
+          "id": "41339421786167",
+          "title": "M",
+          "price": 3825,
+          "available": true
+        },
+        {
+          "id": "41339421818935",
+          "title": "L",
+          "price": 3825,
+          "available": true
+        },
+        {
+          "id": "41339421851703",
+          "title": "XL",
+          "price": 3825,
+          "available": true
+        },
+        {
+          "id": "41339421884471",
+          "title": "2XL",
+          "price": 3825,
+          "available": true
+        },
+        {
+          "id": "41339421917239",
+          "title": "3XL",
+          "price": 3825,
+          "available": true
+        }
+      ]
+    }
+  ],
+  "newproducts": [
+    {
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_April2025_Products_CoffeeStencil_Tools_Web.jpg?v=1743516620&width=533",
+      "title": "Let It Fly Latte Pen & Stencil Set",
+      "url": "https://www.deathwishcoffee.com/products/dwc-beverage-stencil",
+      "price": 18.00
+    },
+    {
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_April2025_Products_Mug_Purple_Front_EA2.jpg?v=1743449076&width=533",
+      "title": "Last Laugh Mug",
+      "url": "https://www.deathwishcoffee.com/products/last-laugh-mug",
+      "price": 38.00
+    },
+    {
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_April2025_Products_Cards_Frontandback_EA2.jpg?v=1743448400&width=533",
+      "title": "Poker Face Playing Cards",
+      "url": "https://www.deathwishcoffee.com/products/poker-face-playing-cards",
+      "price": 8.00
+    },
+    {
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_March2025_Product_BomberJacket_Front_Web_2.jpg?v=1741960020&width=360",
+      "title": "Level Up Letterman Jacket",
+      "url": "https://www.deathwishcoffee.com/products/level-up-letterman-jacket",
+      "price": 76.50
+    },
+    {
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_March2025_Product_BottleOpener_Front2_Web.jpg?v=1741809353&width=360",
+      "title": "Death Grip Bottle Opener",
+      "url": "https://www.deathwishcoffee.com/products/death-grip-bottle-opener",
+      "price": 7.20
+    },
+    {
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_11529_CoreProducts_Hoodie_Greywash_Web2.jpg?v=1741956801",
+      "title": "Coffee & Chill Hoodie",
+      "url": "https://www.deathwishcoffee.com/products/coffee-chill-hoodie",
+      "price": 54.00
+    },
+    {
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_February2025_11543_CoreProducts_Joggers_Back_Web2.jpg?v=1741956939&width=360",
+      "title": "Coffee & Chill Joggers",
+      "url": "https://www.deathwishcoffee.com/products/coffee-chill-joggers",
+      "price": 40.50
+    },
+    {
+      "image": "https://www.deathwishcoffee.com/cdn/shop/files/DeathWishCoffee_March2025_Product_TShirt_GreenWash_Front_Web2.jpg?v=1741697901",
+      "title": "Erin Go Bold Long Sleeve",
+      "url": "https://www.deathwishcoffee.com/products/erin-go-bold-long-sleeve",
+      "price": 28.00
+    }
+  ]
+}

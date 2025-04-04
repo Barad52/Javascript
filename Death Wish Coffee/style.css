@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: black !important;
+}
+
+/* < -------- Navbar -------- > */
+
+.navbar {
+    padding: 15px 50px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.logo img {
+    height: 136px;
+    width: 136px;
+    position: absolute;
+    top: 5px;
+    margin-left: -48px;
+}
+
+/* < -------- Slider -------- > */
+
+@font-face {
+    font-family: 'RevansBold';
+    src: url('fonts/Revans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.revans-text {
+    font-family: 'RevansBold', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: white;
+    max-width: 500px;
+}
+
+.carousel-caption h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+/* < -------- New Arrivals -------- > */
+
+.product-card {
+    background-color: black;
+    color: white;
+    width: 300px;
+    border: 1px solid #333;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.product-img img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #444;
+}
+
+.product-details {
+    padding: 10px;
+}
+
+.product-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 14px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.new-price {
+    font-weight: bold;
+}
+
+.product-rating {
+    font-size: 14px;
+    color: #ffcc00;
+}
+
+.add-shop-btn {
+    background: transparent;
+    border: 1px solid red;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.add-shop-btn:hover {
+    background: red;
+}
+
